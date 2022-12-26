@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="../CSS/style.css">
+    <script src="./js/scripts.js"></script>
+</head>
+<body >
+    <button class="" onclick="history.back()">Go Back</button>
+    <div class="container mx-auto py-3 text-center"  > 
+<h2> project 1 : Kafka Message-Queue </h2>
+<br>
+<p id="p0">"Kafka" คือ Message-Queue ที่คอยเชื่อมต่อระหว่าง Producer(ผู้ผลิต) และ Consumer(ผู้บริโภค) โดย Producer จะเป็นตัวผลิต Message ไปส่ง Message Queue ซึ่งจะรอให้ Consumer หยิบแต่ละ Message ไปใช้งาน</p>
+  <p id="p0">นอกจากนั้น Kafka ยังเป็นตัว Distributed System(ระบบกระจาย) ได้อีกด้วยคือเราสามารถสร้าง Producer หลายๆตัวขึ้นมาได้เพื่อให้สามารถรองรับการทำงานกับระบบที่มี Transaction(การติดต่อกัน) มากๆ
+    เพื่อความเข้าใจง่ายจะขอยกตัวอย่างกับร้านอาหาร ตอนเริ่มต้นเราเปิดร้านอาหารลูกค้าก็ยังไม่มากเพราะยังไม่ค่อยมีใครรู้จักร้านเรา เราจ้างเด็กเสิร์ฟคนเดียวก็พอ แต่เมื่อเวลาผ่านไปร้านอาหารเราดังขึ้นมาติดมิชลินสตาร์คนเข้ามาอย่างล้นหลามการมีเด็กเสิร์ฟคนเดียวก็คงน้อยไปเพราะลูกค้าจะรอนานมากหรือคงจะไม่เข้าร้านเราอีกเลย 
+    ดังนั้นเราจึงแก้ปัญหาโดยการจ้างเด็กเสิร์ฟเพื่อให้สามารถให้บริการลูกค้าได้อย่างรวดเร็ว ซึ่งเด็กเสิร์ฟที่เพิ่มขึ้นนั้นก็เปรียบได้กับ Kafka ที่สามารถสร้างหลายๆ Producer เพื่อให้การทำงานรวดเร็วขึ้น</p>
+    <hr>
+    <p id="p1">โดยสามารถใช่งานได้โดยการติดตั้งผ่านคำสั่ง npm install kafkajs </p>
+<div id="terminal">
+    <div class="prompt" id="p2">$ npm install kafkajs</div>
+</div>
+<hr>
+<p id="p">ในโปรเจคนี้เราใช่ "Kafka " ในการจัดการกับ Message-Queue จำนวนมหาศาลที่เป็นผลลัพท์จากการ Query จากบทความข้างต้น Kafka นั้นเป็นตัวเลือกที่เหมาะสมที่สุดในการจัดการ
+    ข้อมูลจำนวนมากแบบนี้
+</p>
+<video width="500" height="350" controls>
+    <source src="images\runrest.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <hr>
+  <p> ด้วยความสามารถของ kafka ก็สามารถทำให้เราสามารถจัดการข้อมูลแบบนี้ได้ 
+    และนอกจาก Kafka นั้นยังมีระบบที่สามารถจัดการกับ Message-Queue จำนวนมากๆแบบนี้อีกเช่น
+  </p>
+ <p><a href="https://www.rabbitmq.com/"><strong> RabbitMQ , </strong></a></p> 
+ <p><a href="https://aws.amazon.com/th/sqs/"><strong> Amazon Simple Queue Service (SQS) , </strong></a></p>
+ <p><a href="https://azure.microsoft.com/en-us/products/service-bus/"><strong> Azure Service Bus </strong></a></p>
+</div>
+</div>
+<footer>
+    team 4 copyright 2022
+</footer>
+</body>
+</html>

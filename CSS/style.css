@@ -1,0 +1,42 @@
+p {
+  padding: 8px;
+  margin: 25px;
+  text-align: left;
+  
+  /* other styling */
+  background-color: #000000;
+  border-radius: 10px;
+  color: white;
+  font-family: Avenir;
+}
+
+ #terminal {
+    font-family: monospace;
+    white-space: pre;
+    color: #fff;
+    background-color: #000;
+    padding: 1em;
+    overflow-x: auto;
+    width: 500px;
+    margin: auto;
+  }
+  
+  .prompt {
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  input {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+  }
+  #p0 { text-indent: 2em; }
+  #p1 { text-indent: 14em; }
+  #p2 { text-indent: -3em; }
+
+  a {
+    display: inline-block;
+}
